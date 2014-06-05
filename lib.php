@@ -226,6 +226,8 @@ if ($version) {
 
                 }
 
+                $mform->setType('rootcategory', PARAM_TEXT);
+
                 // List Kaltura metadata profile information
                 $profile = repository_kaltura_get_metadata_profile_info($connection);
 
@@ -805,6 +807,8 @@ if ($version) {
                                         '&nbsp;&nbsp;<a href="'.$CFG->wwwroot.'/repository/kaltura/resetcategory.php">'.get_string('resetroot', 'repository_kaltura').'</a>');
 
                 }
+
+                $mform->setType('rootcategory', PARAM_TEXT);
 
                 // List Kaltura metadata profile information
                 $profile = repository_kaltura_get_metadata_profile_info($connection);
