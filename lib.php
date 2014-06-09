@@ -245,7 +245,7 @@ class repository_kaltura extends repository {
 
             } else {
                 // Check if the metadata profile id exists in the mdl_config_table
-                $profileid = empty($repoconfig->metadata_profile_id) ? $repoconfig->metadata_profile_id : null;
+                $profileid = empty($repoconfig->metadata_profile_id) ? null : $repoconfig->metadata_profile_id;
 
                 // If empty then set the profile id
                 if (empty($profileid)) {
