@@ -1,0 +1,10 @@
+#kal_repo_search {
+    position: absolute;
+    left: 280px;
+    top: 28px;
+}
+
+.fp-toolbar .enabled {
+    width: 100%;
+    max-width: 50px;
+}

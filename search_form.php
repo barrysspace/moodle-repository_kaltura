@@ -164,7 +164,8 @@ function repository_kaltura_print_used_selection($enable_javascript = true) {
     $html = '';
 
     $param = array('for' => 'label_shared_or_used');
-    $title = get_string('search_shared_or_used', 'repository_kaltura');
+    //$title = get_string('search_shared_or_used', 'repository_kaltura');
+    $title = '';
     $html .= html_writer::tag('label', $title, $param);
 
     $html .= '&nbsp';
@@ -209,7 +210,7 @@ function repository_kaltura_print_shared_used_selection($enable_javascript = tru
 
     // label type of search
     $param = array('for' => 'label_shared_or_used');
-    $title = get_string('search_shared_or_used', 'repository_kaltura');
+    $title = '';
     $html .= html_writer::tag('label', $title, $param);
 
     $html .= '&nbsp';
@@ -253,7 +254,7 @@ function repository_kaltura_print_shared_selection($enable_javascript = true) {
     $html = '';
 
     $param = array('for' => 'label_shared_or_used');
-    $title = get_string('search_shared_or_used', 'repository_kaltura');
+    $title = '';
     $html .= html_writer::tag('label', $title, $param);
 
     $html .= '&nbsp';
